@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins',sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background: #222;
+}
+.card{
+    width: 90%;
+    max-width: 470px;
+    background-image: url(assests/background1.jpg);
+    color: #fff;
+    margin: 100px auto 0;
+    border-radius: 20px;
+    padding: 40px 35px;
+    text-align: center;
+}
+.search{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.search input{
+    border: 0;
+    outline: 0;
+    background: rgba(0, 0, 0, 0.73);
+
+    ;
+    color: #555;
+    padding: 10px 25px;
+    height: 60px;
+    border-radius: 30px;
+    flex: 1;
+    margin-right: 16px;
+    font-size: 18px;
+}
+.search button{
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+.search button img{
+    width: 20px;
+}
+.weatherIcon{
+    width: 170px;
+    margin-top: -57px;
+    position: relative;
+    right: 95px;
+    top: 53px;
+    text-shadow: 1px 1px 20px black;
+}
+.weather h1{
+    font-size: 80px;
+    font-weight: 500;
+    position: relative;
+    top: -95px;
+    left: 70px;
+    color: #FFC700;
+    text-shadow: 1px 1px 20px black;
+}
+.weather h2{
+    font-size: 45px;
+    font-weight: 500;
+    margin-top: -10px;
+    position: relative;
+    top: -98px;
+    left: 69px;
+    text-shadow: 1px 1px 20px black;
+}
+.weather h3{
+    font-size: 80px;
+    font-weight: 500;
+    position: relative;
+    top: 15px;
+    text-shadow: 1px 1px 20px black;
+}
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-top: 50%;
+    position: relative;
+    bottom: 230px;
+}
+.col1{
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+.col1 img{
+    width: 40px;
+    margin-right: 10px;
+}
+.col2{
+    display: flex;
+    align-items: center;
+    text-align: left;
+    position: relative;
+    top: 90px;
+    right: 200px;
+}
+.col2 img{
+    width: 40px;
+    margin-right: 10px;
+}
+.col3{
+    display: flex;
+    align-items: center;
+    text-align: left;
+    position: relative;
+    right: 398px;
+    top: 180px;
+}
+.col3 img{
+    width: 44px;
+    margin-right: 7px;
+}
+.col4{
+    display: flex;
+    align-items: center;
+    text-align: left;
+    position: relative;
+    right: 285px;
+    top: 2px;
+}
+.col4 img{
+    width: 40px;
+    margin-right: 10px;
+}
+.humidity, .wind{
+    font-size: 20px;
+    margin-top: -6px;
+    width: 145px;
+}
+.weather{
+    display: none;
+}
