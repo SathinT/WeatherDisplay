@@ -10,7 +10,11 @@ async function checkWeather(city){
     const response = await fetch(apiUrl + city + `&appid=${apiKey}`);
 
     if(response.status == 404){
-        alert("Invalid City Name");
+        Swal.fire({
+            title: "City Not Found",
+            text: "Check the name again!",
+            icon: "question"
+        });
     }else{
         var data = await response.json();
 
